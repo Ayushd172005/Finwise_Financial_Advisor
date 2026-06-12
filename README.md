@@ -2,7 +2,6 @@
 
 > An intelligent personal finance assistant powered by Claude AI. Track expenses, plan budgets, set goals, and get personalized investment advice — all in one place.
 
-![FinWise Screenshot](docs/screenshot.png)
 
 ## ✨ Features
 
@@ -111,7 +110,6 @@ finance-advisor/
 ## 🔧 Environment Variables
 
 ```env
-ANTHROPIC_API_KEY=your_key_here
 ```
 
 ## 📝 License
@@ -119,4 +117,3 @@ ANTHROPIC_API_KEY=your_key_here
 MIT License — feel free to use and modify.
 
 ---
-Built with ❤️ using Claude AI by Anthropic
