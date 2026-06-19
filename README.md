@@ -1,6 +1,6 @@
 # 💰 FinWise — Personal Finance AI Advisor
 
-> An intelligent personal finance assistant powered by Claude AI. Track expenses, plan budgets, set goals, and get personalized investment advice — all in one place.
+> An intelligent personal finance assistant powered by AI. Track expenses, plan budgets, set goals, and get personalized investment advice — all in one place.
 
 
 ## ✨ Features
