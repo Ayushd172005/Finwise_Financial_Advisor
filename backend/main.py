@@ -20,7 +20,6 @@ app.add_middleware(
 
 client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
-# ── Models ──────────────────────────────────────────────────────────────────
 class Expense(BaseModel):
     id: Optional[str] = None
     amount: float
@@ -55,7 +54,6 @@ class AnalysisRequest(BaseModel):
     goals: Optional[List[Goal]] = []
     income: Optional[float] = None
 
-# ── Finance Analysis Routes ──────────────────────────────────────────────────
 @app.post("/api/analyze")
 async def analyze_finances(req: AnalysisRequest):
     """Deep AI analysis of user's financial data."""
@@ -103,7 +101,6 @@ Respond in JSON format:
     )
 
     text = response.content[0].text
-    # strip markdown fences if present
     if "```" in text:
         text = text.split("```")[1]
         if text.startswith("json"):
